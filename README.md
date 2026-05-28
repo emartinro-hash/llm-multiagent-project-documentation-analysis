@@ -44,7 +44,6 @@ prompts/              Prompts utilizados por cada agente
 docs/                 Diagramas, metodología y material de apoyo
 demo/                 Preguntas de prueba y ejemplos de salida
 production_notes/     Notas sobre limitaciones, escalado y evolución a producción
-web-demo/             Página estática de presentación para Vercel
 ```
 
 ## Ejecución local
