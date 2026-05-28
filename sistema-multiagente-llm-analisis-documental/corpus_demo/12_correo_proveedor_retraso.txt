@@ -1,0 +1,13 @@
+Asunto: Actualización de calendario conector CloudSign
+
+Estimada Laura,
+
+Tras la última validación técnica, necesitamos ampliar el plazo de entrega del conector de firma digital en 10 días naturales adicionales.
+Hemos detectado incompatibilidades con el flujo de autenticación SSO del entorno de preproducción.
+
+La nueva fecha estimada de entrega del parche funcional es el 28/03/2026.
+
+Lamentamos el impacto y quedamos disponibles para una reunión de seguimiento.
+
+Un saludo,
+Equipo CloudSign Europe

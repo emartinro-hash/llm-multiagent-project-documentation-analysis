@@ -1,0 +1,23 @@
+# Acta de seguimiento - Enero
+
+**Fecha:** 29/01/2026
+
+## Estado general
+La fase de análisis se encuentra prácticamente cerrada. El inventario documental recibido de Finanzas presenta inconsistencias de nomenclatura y duplicados.
+
+## Avances
+- Requisitos funcionales completados al 90%.
+- Modelo de permisos preliminar validado por RR. HH. y PMO.
+- Se ha iniciado la preparación del entorno de pruebas.
+
+## Incidencias comentadas
+- La información del inventario documental no está normalizada.
+- Aún no se ha recibido el calendario definitivo del proveedor CloudSign.
+
+## Riesgos revisados
+- Riesgo alto: retraso del proveedor de firma digital.
+- Riesgo medio: necesidad de limpieza documental adicional.
+
+## Acciones
+- Finanzas enviará versión depurada del inventario antes del 03/02/2026.
+- Compras solicitará confirmación formal de fechas a CloudSign.

@@ -1,0 +1,41 @@
+# Acta de inicio del proyecto
+
+**Proyecto:** Implantación de plataforma de gestión documental y mesa de servicio interna  
+**Código:** PROJ-2026-07  
+**Patrocinador:** Dirección de Operaciones  
+**Directora del proyecto:** Laura Sánchez Martín  
+**Fecha de aprobación:** 10/01/2026
+
+## Objetivo
+Implantar una plataforma corporativa que unifique:
+- repositorio documental interno,
+- gestión de incidencias internas,
+- circuito de aprobaciones,
+- firma digital de documentos operativos.
+
+## Alcance inicial
+1. Migración de 12.000 documentos activos.
+2. Configuración de la mesa de servicio para RR. HH., Finanzas y TI.
+3. Integración con SSO corporativo.
+4. Cuadros de seguimiento para PMO y responsables funcionales.
+
+## Hitos principales
+- H1: Análisis y diseño funcional — 31/01/2026
+- H2: Configuración e integración técnica — 28/02/2026
+- H3: Piloto con usuarios clave — 20/03/2026
+- H4: Puesta en producción — 15/04/2026
+
+## Restricciones
+- El presupuesto total no debe superar los 58.000 €.
+- La integración con SSO debe quedar validada antes del piloto.
+- El sistema debe cumplir RGPD y política interna de retención documental.
+
+## Riesgos iniciales
+- Retraso del proveedor de firma digital.
+- Calidad irregular del inventario documental.
+- Resistencia al cambio en áreas administrativas.
+
+## Criterios de éxito
+- Reducción del tiempo medio de localización documental en al menos un 40%.
+- Resolución de incidencias internas centralizada en un único portal.
+- Adopción mínima del 80% por parte de usuarios piloto.
