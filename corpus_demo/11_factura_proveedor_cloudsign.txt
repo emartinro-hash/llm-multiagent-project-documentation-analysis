@@ -1,0 +1,13 @@
+FACTURA SIMULADA
+
+Proveedor: CloudSign Europe
+CIF: EU-99887766
+Número de factura: CS-2026-014
+Fecha de emisión: 18/03/2026
+Concepto: Integración conector firma digital + soporte técnico
+Base imponible: 9.500,00 EUR
+IVA (21%): 1.995,00 EUR
+Total factura: 11.495,00 EUR
+Vencimiento: 17/04/2026
+Estado: En revisión por incidencia de entrega
+Centro de coste: PMO-DIGITAL-01

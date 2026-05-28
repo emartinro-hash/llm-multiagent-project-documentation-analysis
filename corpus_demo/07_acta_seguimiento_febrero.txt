@@ -1,0 +1,24 @@
+# Acta de seguimiento - Febrero
+
+**Fecha:** 26/02/2026
+
+## Estado general
+La configuración base del sistema está avanzada, pero la integración con SSO no ha quedado cerrada. Se detecta tensión en el calendario del hito H2.
+
+## Avances
+- Configuración documental completada al 75%.
+- Definidos metadatos y estructura de carpetas corporativas.
+- Mesa de servicio configurada para RR. HH. y TI.
+
+## Incidencias comentadas
+- Persisten errores de autenticación en el entorno de pruebas.
+- CloudSign ha comunicado una demora adicional de 10 días en el conector.
+- El equipo funcional reporta falta de tiempo para revisar formularios.
+
+## Riesgos revisados
+- Riesgo alto: no llegar al piloto con SSO y firma digital estabilizados.
+- Riesgo medio: incremento de coste si se amplía soporte técnico.
+
+## Acciones
+- TI elevará incidencia al equipo de identidad corporativa.
+- Se replanificará el piloto si el proveedor no cumple la nueva fecha.

@@ -1,0 +1,42 @@
+# Plan resumido del proyecto
+
+## Fases
+### 1. Análisis
+Recogida de requisitos con RR. HH., Finanzas, TI y PMO.
+
+### 2. Diseño
+Definición de flujos, permisos, metadatos documentales y roles.
+
+### 3. Implementación
+Configuración de la plataforma, integraciones y pruebas técnicas.
+
+### 4. Piloto
+Validación con usuarios clave y ajuste de incidencias.
+
+### 5. Despliegue
+Paso a producción, formación y soporte inicial.
+
+## Roles clave
+- Directora del proyecto: Laura Sánchez Martín
+- Responsable técnico: Diego Ruiz
+- Responsable funcional RR. HH.: Marta Gil
+- Responsable funcional Finanzas: Pablo Nieto
+- Proveedor documental: AlfaDoc Solutions
+- Proveedor firma digital: CloudSign Europe
+
+## Dependencias críticas
+- Disponibilidad de entorno SSO
+- Entrega del conector de firma digital
+- Validación del modelo de permisos por parte de Seguridad
+
+## Riesgos de seguimiento prioritario
+- Integración SSO no validada en plazo
+- Retraso en entregables del proveedor CloudSign
+- Sobrecoste en licencias de almacenamiento
+- Baja disponibilidad de usuarios clave para el piloto
+
+## Métricas de seguimiento
+- % hitos cumplidos en fecha
+- nº incidencias abiertas por semana
+- desviación presupuestaria acumulada
+- nivel de adopción en piloto
