@@ -1,6 +1,0 @@
-ID_INCIDENCIA,Fecha,Categoria,Descripcion,Severidad,Estado,Area,Accion_actual
-INC-01,2026-02-14,Autenticacion,Error de login en entorno de pruebas con SSO,Alta,Abierta,TI,Escalada a identidad corporativa
-INC-02,2026-02-21,Proveedor,Demora en entrega del conector de firma digital,Alta,Abierta,Proveedor,Replanificacion pendiente
-INC-03,2026-03-08,Rendimiento,Busquedas lentas con filtros avanzados,Media,Abierta,Usuarios piloto,Analisis tecnico
-INC-04,2026-03-12,Permisos,Usuarios de RRHH no visualizan carpetas compartidas,Media,En curso,RRHH,Revision de roles
-INC-05,2026-03-19,Firma,Rechazos intermitentes en aprobacion de documentos,Alta,Abierta,Finanzas,Esperando parche proveedor

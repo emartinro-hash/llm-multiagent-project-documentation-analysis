@@ -1,6 +1,0 @@
-ID_RIESGO,Descripcion,Probabilidad,Impacto,Nivel,Estado,Mitigacion,Responsable
-R1,Retraso del proveedor de firma digital,Alta,Alto,Crítico,Abierto,Seguimiento semanal y revisión contractual,Laura Sánchez
-R2,Errores de autenticación SSO,Media,Alto,Alto,Abierto,Escalado a equipo de identidad,Diego Ruiz
-R3,Inventario documental incompleto o inconsistente,Media,Medio,Medio,Mitigado,Limpieza previa por Finanzas,Pablo Nieto
-R4,Baja disponibilidad de usuarios clave para validar,Media,Medio,Medio,Abierto,Reservar agenda semanal de validación,PMO
-R5,Sobrecoste por ampliación de soporte técnico,Baja,Medio,Bajo,Abierto,Control mensual de desviación,Laura Sánchez

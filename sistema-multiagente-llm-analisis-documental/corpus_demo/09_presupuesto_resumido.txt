@@ -1,7 +1,0 @@
-Concepto,Presupuesto_previsto_EUR,Coste_comprometido_EUR,Coste_facturado_EUR,Desviacion_estimadaa_EUR
-Licencias plataforma documental,22000,22000,14800,0
-Integracion firma digital,12000,12000,9500,1500
-Servicios de parametrizacion,10000,10800,0,800
-Formacion y adopcion,6000,6000,0,0
-Contingencia,8000,0,0,-8000
-TOTAL,58000,50800,24300,2300

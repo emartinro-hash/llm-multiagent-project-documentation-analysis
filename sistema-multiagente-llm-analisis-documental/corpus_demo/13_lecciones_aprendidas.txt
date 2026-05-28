@@ -1,7 +1,0 @@
-# Lecciones aprendidas preliminares
-
-1. La calidad del inventario documental de entrada condiciona fuertemente el calendario.
-2. La dependencia de proveedores externos debe formalizarse con hitos y criterios de aceptación más estrictos.
-3. Las incidencias de autenticación y permisos generan un alto volumen de soporte en fases tempranas.
-4. La participación de usuarios clave debe reservarse desde el inicio para evitar cuellos de botella en validación.
-5. La documentación de riesgos debe revisarse semanalmente cuando existan integraciones críticas.
