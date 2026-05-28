@@ -77,7 +77,7 @@ http://localhost:3000
 
 7. Probar las preguntas incluidas en `demo/preguntas_demo.md`.
 
-## Preguntas demo
+## Preguntas ejemplo
 
 - Resume el estado actual del proyecto, los riesgos abiertos, las dependencias críticas y el impacto de la factura pendiente.
 - Busca en la documentación todos los campos “Número de factura” y devuélvelos junto con su proveedor.
