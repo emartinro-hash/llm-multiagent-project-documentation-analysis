@@ -23,7 +23,6 @@ El prototipo se ha implementado en **Flowise** y sigue una arquitectura modular 
 
 
 El sistema se estructura como una arquitectura multiagente coordinada por un supervisor. La consulta del usuario es procesada en lenguaje natural y se deriva secuencialmente hacia tres agentes especializados: recuperación documental, análisis de evidencia y síntesis ejecutiva.
-
 ![Arquitectura multiagente](docs/arquitectura_multiagente.png)
 
 ## Tecnologías utilizadas
