@@ -21,29 +21,51 @@ El prototipo se ha implementado en **Flowise** y sigue una arquitectura modular 
 
 ## Arquitectura
 
-
 El sistema se estructura como una arquitectura multiagente coordinada por un supervisor. La consulta del usuario es procesada en lenguaje natural y se deriva secuencialmente hacia tres agentes especializados: recuperación documental, análisis de evidencia y síntesis ejecutiva.
+
 ![Arquitectura multiagente](docs/arquitectura_multiagente.png)
+
+## Diagramas de Sankey interactivos
+
+Además de la implementación técnica del prototipo, el repositorio incluye una carpeta específica con **diagramas de Sankey interactivos** desarrollados como material complementario de la revisión sistemática de la literatura del TFM.
+
+Estos diagramas permiten explorar visualmente las relaciones entre los artículos incluidos en la revisión, los clústers temáticos identificados, los enfoques de orquestación y los frameworks multiagente analizados. Su finalidad no es formar parte del prototipo implementado en Flowise, sino reforzar la trazabilidad del análisis bibliográfico y facilitar la interpretación de los resultados de la revisión sistemática.
+
+Los diagramas se encuentran en la carpeta:
+
+```text
+interactive_sankey_diagrams/
+```
+
+Archivos incluidos:
+
+* `sankey_2_niveles_articulos_cluster.html`: relación entre artículos revisados y clústers temáticos.
+* `sankey_2_niveles_articulos_frameworks_enfoques.html`: relación entre artículos revisados y frameworks/enfoques de orquestación.
+* `sankey_articulo_framework_cluster.html`: relación integrada entre artículos, frameworks/enfoques y clústers temáticos.
+
+Para visualizarlos, se debe descargar el archivo HTML correspondiente y abrirlo en un navegador web.
 
 ## Tecnologías utilizadas
 
-- Flowise
-- Modelos LLM mediante API compatible
-- Retrieval-Augmented Generation (RAG)
-- FAISS como almacén vectorial
-- Embeddings de Hugging Face (`intfloat/multilingual-e5-small`)
-- Docker
-- Corpus documental simulado
+* Flowise
+* Modelos LLM mediante API compatible
+* Retrieval-Augmented Generation (RAG)
+* FAISS como almacén vectorial
+* Embeddings de Hugging Face (`intfloat/multilingual-e5-small`)
+* Docker
+* Corpus documental simulado
+* Diagramas HTML interactivos de Sankey para el análisis visual de la revisión sistemática
 
 ## Estructura del repositorio
 
 ```text
-flowise_exports/      Flujos exportados desde Flowise en formato JSON
-corpus_demo/          Documentación simulada utilizada para validar el sistema
-prompts/              Prompts utilizados por cada agente
-docs/                 Diagramas, metodología y material de apoyo
-demo/                 Preguntas de prueba y ejemplos de salida
-production_notes/     Notas sobre limitaciones, escalado y evolución a producción
+flowise_exports/                 Flujos exportados desde Flowise en formato JSON
+corpus_demo/                     Documentación simulada utilizada para validar el sistema
+prompts/                         Prompts utilizados por cada agente
+docs/                            Diagramas, metodología y material de apoyo
+demo/                            Preguntas de prueba y ejemplos de salida
+production_notes/                Notas sobre limitaciones, escalado y evolución a producción
+interactive_sankey_diagrams/     Diagramas de Sankey interactivos de la revisión sistemática
 ```
 
 ## Ejecución local
@@ -53,8 +75,8 @@ production_notes/     Notas sobre limitaciones, escalado y evolución a producci
 1. Clonar el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/sistema-multiagente-llm-analisis-documental.git
-cd sistema-multiagente-llm-analisis-documental
+git clone https://github.com/emartinro-hash/llm-multiagent-project-documentation-analysis.git
+cd llm-multiagent-project-documentation-analysis
 ```
 
 2. Crear el archivo `.env` a partir de `.env.example` y añadir las credenciales necesarias.
@@ -79,23 +101,23 @@ http://localhost:3000
 
 ## Preguntas ejemplo
 
-- Resume el estado actual del proyecto, los riesgos abiertos, las dependencias críticas y el impacto de la factura pendiente.
-- Busca en la documentación todos los campos “Número de factura” y devuélvelos junto con su proveedor.
-- ¿Qué riesgos abiertos aparecen en la documentación?
-- ¿Qué impacto puede tener el retraso de CloudSign en el proyecto?
-- Genera una síntesis ejecutiva para PMO con estado, riesgos, impacto y fuentes.
+* Resume el estado actual del proyecto, los riesgos abiertos, las dependencias críticas y el impacto de la factura pendiente.
+* Busca en la documentación todos los campos “Número de factura” y devuélvelos junto con su proveedor.
+* ¿Qué riesgos abiertos aparecen en la documentación?
+* ¿Qué impacto puede tener el retraso de CloudSign en el proyecto?
+* Genera una síntesis ejecutiva para PMO con estado, riesgos, impacto y fuentes.
 
 ## Limitaciones
 
 Esta implementación es una **prueba de concepto**, no una solución productiva final. Para un uso real sería necesario incorporar:
 
-- autenticación y control de acceso por roles;
-- base vectorial persistente y gestionada;
-- monitorización y registros de ejecución;
-- evaluación automática de respuestas;
-- gestión avanzada de errores;
-- control de acceso a documentos;
-- posible migración parcial a una arquitectura programática con Python, FastAPI o LangGraph si se requiere mayor control.
+* autenticación y control de acceso por roles;
+* base vectorial persistente y gestionada;
+* monitorización y registros de ejecución;
+* evaluación automática de respuestas;
+* gestión avanzada de errores;
+* control de acceso a documentos;
+* posible migración parcial a una arquitectura programática con Python, FastAPI o LangGraph si se requiere mayor control.
 
 ## Transferibilidad
 
@@ -103,7 +125,13 @@ La solución puede adaptarse a pequeñas consultoras tecnológicas, oficinas de 
 
 ## Relación con el TFM
 
-El repositorio complementa la memoria académica del TFM, aportando una implementación revisable y reproducible de la prueba de concepto. Incluye los flujos de Flowise, el corpus documental simulado, los prompts utilizados y ejemplos de uso.
+El repositorio complementa la memoria académica del TFM, aportando una implementación revisable y reproducible de la prueba de concepto. Incluye los flujos de Flowise, el corpus documental simulado, los prompts utilizados, ejemplos de uso y diagramas de Sankey interactivos vinculados a la revisión sistemática de la literatura.
+
+Los diagramas de Sankey se incorporan como material complementario para representar de forma visual la relación entre artículos, clústers temáticos, enfoques de orquestación y frameworks identificados durante el análisis bibliográfico.
+
+## Acceso
+
+Este repositorio tiene carácter privado. El acceso se concede únicamente a usuarios autorizados mediante invitación.
 
 ## Autora
 
