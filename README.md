@@ -129,9 +129,6 @@ El repositorio complementa la memoria académica del TFM, aportando una implemen
 
 Los diagramas de Sankey se incorporan como material complementario para representar de forma visual la relación entre artículos, clústers temáticos, enfoques de orquestación y frameworks identificados durante el análisis bibliográfico.
 
-## Acceso
-
-Este repositorio tiene carácter privado. El acceso se concede únicamente a usuarios autorizados mediante invitación.
 
 ## Autora
 
